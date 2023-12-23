@@ -54,7 +54,7 @@ const Navbar = () => {
           {/* Logo */}
           <div onClick={()=>openNavbar()} className='font-bold text-2xl cursor-pointer flex items-center gap-2 z-50'>
             <Link to="/" className={`${style.card}`}>
-              <img src={MaidaBlack} className='h-[70px]' alt="Logo Back"/>
+              <img src={MaidaBlack} className='h-[50px]' alt="Logo Back"/>
               {/* <img src={MaidaBlue} className={`${style.imgTop} h-[50px]`} alt="Logo Front"/> */}
             </Link>
           </div>
